@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale-1.0" charset="utf-8">
+    <title>Xiaoxiao Liu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--pay attention file hiearchical -->
+    <!-- span is inline element and can not be changed by width we can use display: inline-block to make
+  changes -->
+  <!-- if we want to hide something we can use display:none, or visibility:hidden(leave the room of the hidden item there) to do this  -->
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/master.css">
+<!-- The link above is copied from google fonts to grab the fonts we need  -->
+  </head>
+  <body>
+    <nav class="nav-active">
+      <div class="logo">
+        <h4>Welcome</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
+    </nav>
+    <div class="top_container">
+      <!-- <img class="top_cloud" src="images/cloud-storage.png" alt="cloud_image"> -->
+      <h1>I'm Xiaoxiao.</h1>
+      <p class="what">A <span class="master">master</span> in <span class="cs">Northeastern University</span>.</p>
+
+      <!-- <img class="bottom_cloud" src="images/cloud-storage.png" alt="cloud_image"> -->
+      <img class="data-sience" src="images/data-science.png" alt="data-Science_image">
+
+<!--div is a special html element can devide the content up on website
+    make "boxes"  to easy control with
+  they wont do anything unless we do css with it -->
+
+<!--use petiside and cotro to hover -->
+
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/student.png" alt="me">
+        <h2>Hello.</h2>
+        <p class="intern">I am currently a master in computer sceince, and hunting my first internship as a SDE.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill" src="images/computer.png" alt="skill">
+          <h3>Full stack programmer</h3>
+          <ul>
+            <!-- ul is bullet list -->
+            <!-- ol is number list -->
+            <li>
+              Languages: Python, Java, JavaScript, C
+            </li>
+            <li>
+              Front End: HTML, CSS, React, Node.js
+            </li>
+            <li>
+              Database: MySQL, MongoDB
+            </li>
+            <li>
+              Tools: Git, VS Code, InteliJ, Junit, PyCharm, AWS, Jupyter Notebook, Maven, Gridle, Pandas, Numpy
+            </li>
+          </ul>
+          <!-- <p class="skills-description">• Languages: Python, Java, JavaScript, C • Front End: HTML, CSS, React, Node.js • Database: MySQL, MongoDB • Tools: Git, VS Code, InteliJ, Junit, PyCharm, AWS, Jupyter Notebook, Maven, Gridle, Pandas, Numpy</p> -->
+        </div>
+        <div class="skill-row">
+          <img class="bake" src="images/bake.png" alt="bake">
+          <h3>Baking researcher</h3>
+          <p>Baking always comforts and satisfies me, oh, also my friends. Come and try my "master" piece!</p>
+        </div>
+      </div>
+      <hr>
+      <div class="Work-Experience">
+        <a class="experience" href="workexperience.html">Work Experience</a>
+        <!-- <h2>Work Experience</h2> -->
+        <div class="work-rows">
+          <img class="work-img"src="images/work-schedule.png" alt="work-img">
+
+
+        </div>
+
+        </div>
+      </div>
+      <hr>
+      <div class="hobbies">
+        <a class="hobbies" href="hobbies.html">My Hobbies</a>
+        <div class="hobbies-rows">
+          <img class="hobbies-img"src="images/hobby.png" alt="hobby-img">
+
+
+        </div>
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Feel free to reach me anytime you need.</h3>
+        <p class="contact-message">If you need a intern who is great and have some dessert from time to time, I am the one.</p>
+        <a class="btn" href="contactme.html">Contact Me</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/xiaoxiao-liu-821218250/">LinkedIn</a>
+      <a class="footer-link" href="https://github.khoury.northeastern.edu/orgs/NEU-CS5610-FA22/dashboard">Github</a>
+      <a class="footer-link" href="file:///Users/xiaoxiaoliu/Desktop/PersonalWebsite-XiaoxiaoLiu/index.html">Website</a>
+      <p class="copyright">©2022 Xiaoxiao Liu Northeastern University</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="web.js">  </script>
+  </body>
+</html>

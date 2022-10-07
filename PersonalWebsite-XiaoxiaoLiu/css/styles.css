@@ -1,0 +1,308 @@
+*{
+  box-sizing: boarder-box;
+  margin: 0;
+  padding:0;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: #FCFFB2;
+  font-family: 'Poppins',sans-serif;
+}
+.logo{
+  color: #11999E;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+.nav-links{
+  display: flex;
+  width:50%;
+  justify-content: space-around;
+}
+.nav-links li{
+  list-style: none;
+
+}
+.nav-links a{
+  color: #11999E;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.burger{
+  display:none;
+}
+.burger div{
+  width:20px;
+  height:3px;
+  background-color:#11999E;
+  margin: 5px;
+}
+
+
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+
+}
+.toggle .line2{
+  opacity: 0;
+
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+
+}
+
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+h1{
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color:#66BFBF;
+  /* 100% == 16px we can use either % or px to change the font size  1em = 16px*/
+  /* font size inheritate from parnets if we change font-size in body it will directely change what we have
+  in h1 */
+  /* we can use rem (root em )ro avoid the inheritate */
+}
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+hr{
+  /* horizental line */
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:5%;
+  margin:70px auto;
+}
+
+.footer-link{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color:#00FFD1;
+}
+.top_container{
+  /* background-color: #FCFFB2; */
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin:100px 0;
+
+}
+.bottom-container{
+  background-color: #FCFFB2;
+  padding:70px 0 20px;
+  /* there are 16px default padding so if we padiing 20 it will cover the default gap padding */
+
+}
+.copyright{
+  color:#11999E;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
+
+.master{
+  text-decoration: underline;
+
+}
+.what{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.intern{
+  width:50%;
+  margin:auto;
+  line-height: 2;
+}
+.cs{
+  text-decoration: underline;
+  }
+.hobbies{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-decoration: none;
+
+}
+.hobbies:hover{
+
+}
+.hobbies-img{
+  margin: 90px auto 0px:
+}
+.experience{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+.experience:hover{
+
+}
+.skill-row{
+  width:50%;
+  margin:50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  /* to increase the space between lines */
+}
+.contact-message{
+  width:40%;
+  margin:40px auto 60px;
+}
+
+.skill{
+  float:left;
+  margin-right: 30px;
+  /* we can use clear to make the text below the pic */
+}
+.bake{
+  float:right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:0;
+  position:relative;
+  align-items: center;
+  bottom: -35px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+@media screen and (max-width:1024px){
+  .nav-links{
+    width:60%;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    overflow-x:hidden;
+  }
+  .nav-links{
+    position:absolute;
+    right:0;
+    height:92vh;
+    top:8vh;
+    background-color: #FCFFB2;
+    display: flex;
+    flex-direction:column;
+    width:15%;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+
+  }
+  .nav-links li{
+    opacity: 0;
+    cursor: pointer;
+  }
+  .burger{
+    display: block;
+  }
+  .nav-active{
+    transform: translateX(0%);
+
+}
+
+@keyframes navLinkFade {
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+}
+@media screen and (max-width:768px){
+  h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .what{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h3{
+    font-size: 15px;
+    overflow: hidden;
+    /* make the text stop wrapping words */
+
+  }
+  .experience{
+    font-size: 30px;
+  }
+  .hobbies{
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+}
